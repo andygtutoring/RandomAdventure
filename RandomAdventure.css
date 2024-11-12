@@ -1,0 +1,40 @@
+/* RandomAdventure.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+#game-container {
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#game-output {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+#game-inputs {
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
